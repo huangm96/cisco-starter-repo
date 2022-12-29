@@ -1,11 +1,12 @@
 .exhibit-container {
   border: 2px solid darkgray;
   border-radius: 5px;
-  width: 250px;
+  width: 400px;
   margin: 50px;
+  text-align: center;
 }
 .exhibit-name {
-  text-align: center;
   border-bottom: 1px solid lightgray;
   margin: 5px 15px 10px 15px;
+  padding: 10px;
 }

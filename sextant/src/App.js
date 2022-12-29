@@ -6,8 +6,8 @@ function App() {
     <div className="App">
       <Banner title="Sextant" />
       <div className="main-content">
-        <Exhibit name="Exhibit" />
-        <Exhibit name="Exhibit" />
+        <Exhibit name="IPV4" />
+        <Exhibit name="IPV6" />
       </div>
     </div>
   );
