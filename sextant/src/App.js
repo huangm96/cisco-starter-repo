@@ -1,11 +1,14 @@
 import "./App.css";
 import Banner from "./components/Banner";
-import Main from "./components/Main";
+import Exhibit from "./components/Exhibit";
 function App() {
   return (
     <div className="App">
-      <Banner />
-      <Main />
+      <Banner title="Sextant" />
+      <div className="main-content">
+        <Exhibit name="Exhibit" />
+        <Exhibit name="Exhibit" />
+      </div>
     </div>
   );
 }

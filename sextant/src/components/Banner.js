@@ -1,9 +1,9 @@
 import React from "react";
-
-function Banner() {
+import "./Banner.css";
+function Banner({ title }) {
   return (
-    <div>
-      <p>Sextant</p>
+    <div className="banner-container">
+      <p className="banner-title">{title}</p>
     </div>
   );
 }
