@@ -2,6 +2,7 @@ import "./App.css";
 import Banner from "./components/Banner";
 import Exhibit from "./components/Exhibit";
 import GetIpAddress from "./components/GetIpAddress";
+import PylonLatencyDisplay from "./components/PylonLatencyDisplay";
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,9 @@ function App() {
         </Exhibit>
         <Exhibit name="IPV6">
           <GetIpAddress type="IPV6" />
+        </Exhibit>
+        <Exhibit name="Latency">
+          <PylonLatencyDisplay />
         </Exhibit>
       </div>
     </div>
